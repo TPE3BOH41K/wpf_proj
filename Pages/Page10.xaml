@@ -1,0 +1,27 @@
+﻿<Page x:Class="Morozov_wpf.Pages.Page10"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Morozov_wpf.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1200"
+      Title="Page10">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition/>
+            <RowDefinition Height="44"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="{StaticResource ColorSecondary}"></Grid>
+        <Grid Grid.Row="2" Background="{StaticResource ColorSecondary}"></Grid>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="182,0,0,0" Style="{StaticResource MainFont}" Text="MARATHON SKILLS 2023"/>
+        <Button VerticalAlignment="Center" HorizontalAlignment="Left" Style="{StaticResource Login}" Content="Назад" Click="Button_Click"></Button>
+        <Image Source="/Img/marathon-skills-marathon-map.jpg" Margin="174,51,204,10" Grid.Row="1" />
+
+        <TextBlock TextAlignment="Center" Style="{StaticResource 2ndFont}" Foreground="Black" FontSize="30" Margin="33,10,0,300" Grid.Row="1" Width="1119" HorizontalAlignment="Left" Text="Карта марафона"/>
+        <Image Margin="215,68,246,23" Source="/Img/unsort/marathon-skills-marathon-map.jpg" Stretch="Fill" Grid.Row="1"/>
+
+    </Grid>
+</Page>

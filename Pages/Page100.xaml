@@ -1,0 +1,28 @@
+﻿<Page x:Class="Morozov_wpf.Pages.Page100"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Morozov_wpf.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1200"
+      Title="Page100">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition/>
+            <RowDefinition Height="44"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="{StaticResource ColorSecondary}"></Grid>
+        <Grid Grid.Row="2" Background="{StaticResource ColorSecondary}"></Grid>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="182,0,0,0" Style="{StaticResource MainFont}" Text="MARATHON SKILLS 2023"/>
+        <Button VerticalAlignment="Center" HorizontalAlignment="Left" Style="{StaticResource Login}" Content="Назад" Click="Button_Click"></Button>
+        <TextBlock TextAlignment="Center" Style="{StaticResource 2ndFont}" Foreground="Black" FontSize="30" Margin="225,21,0,286" Grid.Row="1" Width="704" HorizontalAlignment="Left" Text="Мой спонсор"/>
+
+        <Image Source="\Img\marathon-skills-2016-charity-data\the-red-cross-logo.png" Margin="346,82,384,350" Grid.Row="1" />
+
+        <TextBlock TextWrapping="Wrap" Style="{StaticResource 2ndFont}" Foreground="Black" Width="1024" Margin="0,372,0,25" Grid.Row="1"><Run Text="The Red Cross"/><LineBreak/><Run Text="Помощи в период кризиса, все равно, когда она наиболее необходима, и обязательства, когда "/><LineBreak/><Run Text="другие отворачиваются. Красный Крест там для людей в потребности, независимо от того, кто вы "/><LineBreak/><Run Text="есть, независимо от того, где вы живете."/><LineBreak/><Run Text="Красного Полумесяца движение Красного Креста помогает десятки миллионов людей по всему "/><LineBreak/><Run Text="миру каждый год, и мы также заботимся для местных общин в нашей стране местного и дальнего "/><LineBreak/><Run Text="зарубежья."/><LineBreak/><Run Text="С миллионами добровольцев по всему миру и тысячи членов, волонтеров и сторонников, мы "/><LineBreak/><Run Text="можем достичь людей и места, как никто другой."/></TextBlock>
+
+    </Grid>
+</Page>
