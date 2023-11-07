@@ -51,7 +51,7 @@ namespace Morozov_wpf.Pages
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Page45());
+            NavigationService.Navigate(new Page13());
         }
     }
 }

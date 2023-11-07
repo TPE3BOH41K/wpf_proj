@@ -18,9 +18,9 @@ namespace Morozov_wpf.Pages
     /// <summary>
     /// Логика взаимодействия для Page45.xaml
     /// </summary>
-    public partial class Page45 : Page
+    public partial class Page13 : Page
     {
-        public Page45()
+        public Page13()
         {
             InitializeComponent();
         }

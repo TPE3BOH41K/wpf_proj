@@ -15,13 +15,16 @@
                 <RowDefinition/>
                 <RowDefinition Height="44"></RowDefinition>
             </Grid.RowDefinitions>
+            
             <Grid Grid.Row="0" Background="{StaticResource ColorSecondary}"></Grid>
             <Grid Grid.Row="2" Background="{StaticResource ColorSecondary}"></Grid>
             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="182,0,0,0" Style="{StaticResource MainFont}" Text="MARATHON SKILLS 2023"/>
+            
             <StackPanel VerticalAlignment="Center" Grid.Row="1">
                 <Button Style="{StaticResource Button}" Click="Button_Click_3" Content="Я участвовал ранее"></Button>
                 <Button Style="{StaticResource Button}" Click="Button_Click_2" Content="Я новый участник"></Button>
             </StackPanel>
+            
             <Button Grid.Row="1" Style="{StaticResource Login}" Content="Login" Click="Button_Click_1"></Button>
             <Button VerticalAlignment="Center" HorizontalAlignment="Left" Style="{StaticResource Login}" Content="Назад" Click="Button_Click"></Button>
         </Grid>

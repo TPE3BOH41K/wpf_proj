@@ -9,8 +9,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Pages\banco-banespa.jpg" />
+    <None Remove="Pages\conquer-cancer-brazil.png" />
+    <None Remove="Pages\ibirapuera-park-lake.jpg" />
+    <None Remove="Pages\marathon-image.jpg" />
+    <None Remove="Pages\marathon-skills-marathon-map.jpg" />
+    <None Remove="Pages\querstadtein-logo.png" />
+    <None Remove="Pages\teatro-municipal.jpg" />
+    <None Remove="Pages\the-red-cross-logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Img\" />
     <Folder Include="Src\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pages\banco-banespa.jpg" />
+    <Resource Include="Pages\conquer-cancer-brazil.png" />
+    <Resource Include="Pages\ibirapuera-park-lake.jpg" />
+    <Resource Include="Pages\marathon-image.jpg" />
+    <Resource Include="Pages\marathon-skills-marathon-map.jpg" />
+    <Resource Include="Pages\querstadtein-logo.png" />
+    <Resource Include="Pages\teatro-municipal.jpg" />
+    <Resource Include="Pages\the-red-cross-logo.png" />
   </ItemGroup>
 
 </Project>

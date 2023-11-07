@@ -1,4 +1,4 @@
-﻿<Page x:Class="Morozov_wpf.Pages.Page45"
+﻿<Page x:Class="Morozov_wpf.Pages.Page13"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:Morozov_wpf.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="800" d:DesignWidth="1200"
-      Title="Page45">
+      Title="Page13">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -14,13 +14,14 @@
             <RowDefinition/>
             <RowDefinition Height="44"></RowDefinition>
         </Grid.RowDefinitions>
+       
         <Grid Grid.Row="0" Background="{StaticResource ColorSecondary}"></Grid>
         <Grid Grid.Row="2" Background="{StaticResource ColorSecondary}"></Grid>
         <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="182,0,0,0" Style="{StaticResource MainFont}" Text="MARATHON SKILLS 2023"/>
         <Button VerticalAlignment="Center" HorizontalAlignment="Left" Style="{StaticResource Login}" Content="Назад" Click="Button_Click"></Button>
         <TextBlock TextAlignment="Center" Style="{StaticResource 2ndFont}" Foreground="Black" FontSize="30" Margin="255,34,0,273" Grid.Row="1" Width="704" HorizontalAlignment="Left" Text="Список благотворительных организаций"/>
-        <Image Source="/Img/marathon-skills-2016-charity-data/conquer-cancer-brazil.png" Margin="97,47,715,305" Grid.Row="1" />
-        <Image Source="/Img/marathon-skills-2016-charity-data/querstadtein-logo.png" Margin="609,22,108,282" Grid.Row="1" />
+        <Image Source="/Pages/conquer-cancer-brazil.png" Margin="97,47,715,305" Grid.Row="1" />
+        <Image Source="/Pages/querstadtein-logo.png" Margin="609,22,108,282" Grid.Row="1" />
 
         <TextBlock TextWrapping="Wrap" Style="{StaticResource 2ndFont}" Foreground="Black" Width="558" HorizontalAlignment="Left" Margin="21,349,0,-101" Grid.Row="1" Grid.RowSpan="2" RenderTransformOrigin="0.5,0.5">
             <TextBlock.RenderTransform>

@@ -14,13 +14,16 @@
             <RowDefinition/>
             <RowDefinition Height="44"></RowDefinition>
         </Grid.RowDefinitions>
+        
         <Grid Grid.Row="0" Background="{StaticResource ColorSecondary}"></Grid>
         <Grid Grid.Row="2" Background="{StaticResource ColorSecondary}"></Grid>
         <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="182,0,0,0" Style="{StaticResource MainFont}" Text="MARATHON SKILLS 2023"/>
         <Button VerticalAlignment="Center" HorizontalAlignment="Left" Style="{StaticResource Login}" Content="Назад" Click="Button_Click"></Button>
         <Button Style="{StaticResource Login}" Content="Ок" Click="Button_Click_1" Margin="0,236,0,0" Height="32" Width="50" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="0.523,-0.29"/>
+        
         <TextBlock TextAlignment="Center" Style="{StaticResource 2ndFont}" Foreground="Black" FontSize="30" Margin="0,25,0,261" Grid.Row="1" Width="704">Спасибо за вашу регистрацию в качестве бегуна!
         </TextBlock>
+        
         <TextBlock TextAlignment="Center" Style="{StaticResource 2ndFont}" Foreground="Black" FontSize="20" Margin="0,85,0,233" Grid.Row="1" Width="704"> Спасибо за вашу регистрацию в качестве бегуна в Marathon Skills 2022!</TextBlock>
         <TextBlock TextAlignment="Center" Style="{StaticResource 2ndFont}" Foreground="Black" FontSize="20" Margin="0,135,0,181" Grid.Row="1"><Run Text="С вами свяжутся по поводу оплаты."/></TextBlock>
     </Grid>

@@ -17,11 +17,11 @@ using System.Windows.Shapes;
 namespace Morozov_wpf.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для Page100.xaml
+    /// Логика взаимодействия для Page11.xaml
     /// </summary>
-    public partial class Page100 : Page
+    public partial class Page11 : Page
     {
-        public Page100()
+        public Page11()
         {
             InitializeComponent();
         }

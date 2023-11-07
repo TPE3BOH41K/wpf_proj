@@ -30,18 +30,15 @@
         </StackPanel>
 
         <StackPanel Grid.Row="2" Margin="-240,272,620,2" Grid.RowSpan="2">
-            <Button Style="{StaticResource Button}" Width="200" Height="200" Click="Button_Click_1">
-                <Image Source="/Img/unsort/banco-banespa.jpg" Height="200" Width="200" />
-            </Button>
+            <Image Source="/Pages/banco-banespa.jpg" Height="200" Width="200" />
         </StackPanel>
 
 
-        <StackPanel Margin="-65,30,569,51" Grid.Row="2">
+        <StackPanel Margin="-65,16,569,64" Grid.Row="2">
             <Button Style="{StaticResource Button}" Width="228" Height="228" Click="Button_Click_2">
-                <Image Source="/Img/unsort/marathon-skills-marathon-map.jpg" Height="228" Width="228"></Image>
+                <Image Source="/Pages/marathon-skills-marathon-map.jpg" Height="228" Width="228"></Image>
             </Button>
         </StackPanel>
-
 
         <StackPanel Grid.Row="2" Margin="444,133,-47,16">
             <TextBlock TextWrapping="Wrap" Style="{StaticResource 2ndFont}"  Foreground="Black" Width="574" Height="326" FontSize="36"><Run Text="Информация о Навыках Марафона 2022 пойдет сюда. Информация может покрыть расположение, время, расстояние, рекордные времена."/></TextBlock>
@@ -54,21 +51,15 @@
         </StackPanel>
 
         <StackPanel Grid.Row="2" Margin="-178,479,682,-242" Grid.RowSpan="3">
-            <Button Style="{StaticResource Button}" Width="200" Height="200" Click="Button_Click_2">
-                <Image Source="/Img/unsort/teatro-municipal.jpg" Width="200" Height="200"/>
-            </Button>
+            <Image Source="/Pages/teatro-municipal.jpg" Width="200" Height="200"/>
         </StackPanel>
 
         <StackPanel Grid.Row="2" Margin="38,272,456,-46" Grid.RowSpan="3" >
-            <Button Style="{StaticResource Button}" Width="200" Height="200">
-                <Image Source="/Img/unsort/ibirapuera-park-lake.jpg"  Height="200" RenderTransformOrigin="0.488,0.501" Width="200"/>
-            </Button>
+            <Image Source="/Pages/ibirapuera-park-lake.jpg"  Height="206" RenderTransformOrigin="0.488,0.501" Width="200"/>
         </StackPanel>
 
         <StackPanel Grid.Row="2" Margin="41,479,463,-244" Grid.RowSpan="3">
-            <Button Style="{StaticResource Button}" Width="200" Height="200" Click="Button_Click_2">
-                <Image Source="/Img/unsort/marathon-image.jpg" Width="200" Height="200"/>
-            </Button>
+            <Image Source="/Pages/marathon-image.jpg" Width="200" Height="200"/>
         </StackPanel>
 
         <Button VerticalAlignment="Top" HorizontalAlignment="Left" Style="{StaticResource Login}" Content="Назад" Click="Button_Click" Margin="14,6,0,0" Grid.RowSpan="2">

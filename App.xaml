@@ -13,10 +13,11 @@
             <Setter Property="FontSize" Value="30"></Setter>
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
             <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontFamily" Value="Garamond"></Setter>
         </Style>
 
         <Style TargetType="TextBlock" x:Key="2ndFont">
-            <Setter Property="FontFamily" Value="Berlin sans fb"></Setter>
+            <Setter Property="FontFamily" Value="Cambria"></Setter>
             <Setter Property="Foreground" Value="WhiteSmoke"></Setter>
             <Setter Property="FontSize" Value="25"></Setter>
             <Setter Property="FontStyle" Value="Italic"></Setter>
@@ -25,7 +26,7 @@
 
 
         <Style TargetType="TextBlock" x:Key="TimerFont">
-            <Setter Property="FontFamily" Value="Berlin sans fb"></Setter>
+            <Setter Property="FontFamily" Value="Cambria"></Setter>
             <Setter Property="Foreground" Value="WhiteSmoke"></Setter>
             <Setter Property="FontSize" Value="22"></Setter>
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
@@ -38,27 +39,30 @@
             <Setter Property="Width" Value="350"></Setter>
             <Setter Property="Margin" Value="10"></Setter>
             <Setter Property="Background" Value="White"></Setter>
-            <Setter Property="FontFamily" Value="Comic sans ms"></Setter>
+            <Setter Property="FontFamily" Value="Cambria"></Setter>
         </Style>
 
         <Style TargetType="Button" x:Key="Login">
             <Setter Property="FontSize" Value="20"></Setter>
             <Setter Property="Height" Value="35"></Setter>
             <Setter Property="Width" Value="150"></Setter>
-            <Setter Property="Margin" Value="10"></Setter>
+            <Setter Property="Margin" Value="20"></Setter>
             <Setter Property="Background" Value="White"></Setter>
-            <Setter Property="FontFamily" Value="Comic sans ms"></Setter>
+            <Setter Property="FontFamily" Value="Cambria"></Setter>
             <Setter Property="HorizontalAlignment" Value="Right"></Setter>
             <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
         </Style>
+        
         <Style TargetType="PasswordBox" x:Key="Pass">
             <Setter Property="Margin" Value="15"></Setter>
             <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
         </Style>
+        
         <Style TargetType="TextBox" x:Key="TextBox">
             <Setter Property="Margin" Value="15"></Setter>
             <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
             <Setter Property="FontSize" Value="20"></Setter>
         </Style>
+    
     </Application.Resources>
 </Application>

@@ -14,14 +14,19 @@
             <RowDefinition/>
             <RowDefinition Height="44"></RowDefinition>
         </Grid.RowDefinitions>
+       
         <Grid Grid.Row="0" Background="{StaticResource ColorSecondary}"></Grid>
         <Grid Grid.Row="2" Background="{StaticResource ColorSecondary}"></Grid>
+        
         <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="182,0,0,0" Style="{StaticResource MainFont}" Text="MARATHON SKILLS 2023"/>
+        
         <Button VerticalAlignment="Center" HorizontalAlignment="Left" Style="{StaticResource Login}" Content="Назад" Click="Button_Click"></Button>
+        
         <Image Source="/Img/marathon-skills-marathon-map.jpg" Margin="174,51,204,10" Grid.Row="1" />
-
+        
         <TextBlock TextAlignment="Center" Style="{StaticResource 2ndFont}" Foreground="Black" FontSize="30" Margin="33,10,0,300" Grid.Row="1" Width="1119" HorizontalAlignment="Left" Text="Карта марафона"/>
-        <Image Margin="215,68,246,23" Source="/Img/unsort/marathon-skills-marathon-map.jpg" Stretch="Fill" Grid.Row="1"/>
+        
+        <Image Margin="215,68,246,23" Source="/Pages/marathon-skills-marathon-map.jpg" Stretch="Fill" Grid.Row="1"/>
 
     </Grid>
 </Page>

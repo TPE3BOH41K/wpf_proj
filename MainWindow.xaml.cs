@@ -37,9 +37,4 @@ namespace Morozov_wpf
             txb_Time.Text = "Марафон стартует через " + a.Days + "д. " + a.Hours + "ч. " + a.Minutes + "мин. " + a.Seconds + "с. ";
         }
     }
-
-    internal class txb_Time
-    {
-        public static string? Text { get; internal set; }
-    }
 }

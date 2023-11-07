@@ -13,5 +13,6 @@ namespace Morozov_wpf
     /// </summary>
     public partial class App : Application
     {
+    
     }
 }

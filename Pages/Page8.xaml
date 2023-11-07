@@ -14,17 +14,20 @@
             <RowDefinition/>
             <RowDefinition Height="44"></RowDefinition>
         </Grid.RowDefinitions>
+        
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="1" Margin="208,0,0,0">
             <Button Style="{StaticResource Button}" Click="Button_Click_1" Content="MARATHON SKILLS 2023"/>
             <Button Style="{StaticResource Button}" Click="Button_Click_2" Content="BMR калькулятор"/>
             <Button Style="{StaticResource Button}" Click="Button_Click_3" Content="BMI калькулятор"/>
         </StackPanel>
+        
         <StackPanel HorizontalAlignment="Left" Grid.Row="1" Margin="603,228,0,-78" Grid.RowSpan="2">
             <Button Style="{StaticResource Button}" Click="Button_Click_4" Content="Насколько долгий марофон"/>
             <Button Style="{StaticResource Button}" Click="Button_Click_5">
                 <TextBlock TextAlignment="Center"><Run Text="Список благотворительных"/><LineBreak /><Run Text="организаций"/></TextBlock>
             </Button>
         </StackPanel>
+        
         <Grid Grid.Row="0" Background="{StaticResource ColorSecondary}"></Grid>
         <Grid Grid.Row="2" Background="{StaticResource ColorSecondary}"></Grid>
         <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="182,0,0,0" Style="{StaticResource MainFont}">MARATHON SKILLS 2023</TextBlock>
