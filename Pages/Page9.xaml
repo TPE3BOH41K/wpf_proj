@@ -10,59 +10,60 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="14"></RowDefinition>
+            <RowDefinition Height="26"/>
             <RowDefinition Height="15.748"/>
             <RowDefinition Height="120*"/>
             <RowDefinition Height="23*"/>
-            <RowDefinition Height="44"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <StackPanel  Grid.Row="2" Margin="183,5,142,259">
+        <StackPanel  Grid.Row="3" Margin="183,5,142,259">
             <TextBlock Style="{StaticResource 2ndFont}" Foreground="Black" Width="429" Height="31">Информация о Marathon Skills 2023
             </TextBlock>
         </StackPanel>
 
-        <Grid Background="{StaticResource ColorSecondary}" Grid.RowSpan="2"/>
-        <Grid Grid.Row="4" Background="{StaticResource ColorSecondary}"></Grid>
+        <Grid Background="{StaticResource ColorSecondary}" Grid.RowSpan="4" Margin="0,0,0,599"/>
+        <Grid Grid.Row="5" Background="{StaticResource ColorSecondary}"></Grid>
 
-        <StackPanel Grid.RowSpan="2">
+        <StackPanel Grid.RowSpan="4" Margin="0,0,0,599">
             <TextBlock Style="{StaticResource MainFont}" Text="MARATHON SKILLS 2023"/>
         </StackPanel>
 
-        <StackPanel Grid.Row="2" Margin="-240,272,620,2" Grid.RowSpan="2">
+        <StackPanel Grid.Row="3" Margin="-240,272,620,2" Grid.RowSpan="2">
             <Image Source="/Pages/banco-banespa.jpg" Height="200" Width="200" />
         </StackPanel>
 
 
-        <StackPanel Margin="-65,16,569,64" Grid.Row="2">
+        <StackPanel Margin="-65,16,569,64" Grid.Row="3">
             <Button Style="{StaticResource Button}" Width="228" Height="228" Click="Button_Click_2">
                 <Image Source="/Pages/marathon-skills-marathon-map.jpg" Height="228" Width="228"></Image>
             </Button>
         </StackPanel>
 
-        <StackPanel Grid.Row="2" Margin="444,133,-47,16">
+        <StackPanel Grid.Row="3" Margin="444,133,-47,16">
             <TextBlock TextWrapping="Wrap" Style="{StaticResource 2ndFont}"  Foreground="Black" Width="574" Height="326" FontSize="36"><Run Text="Информация о Навыках Марафона 2022 пойдет сюда. Информация может покрыть расположение, время, расстояние, рекордные времена."/></TextBlock>
         </StackPanel>
 
-        <StackPanel Grid.Row="2" Margin="500,379,-104,-137" Grid.RowSpan="3">
+        <StackPanel Grid.Row="3" Margin="500,379,-104,-137" Grid.RowSpan="3">
             <TextBlock TextWrapping="Wrap" Style="{StaticResource 2ndFont}"  Foreground="Black" Width="682" Height="259" FontSize="36">
                 Дополнительные сведения. Дополнительные сведения. Дополнительные сведения. Дополнительные сведения. Дополнительные сведения.
             </TextBlock>
         </StackPanel>
 
-        <StackPanel Grid.Row="2" Margin="-178,479,682,-242" Grid.RowSpan="3">
+        <StackPanel Grid.Row="3" Margin="-178,479,682,-242" Grid.RowSpan="3">
             <Image Source="/Pages/teatro-municipal.jpg" Width="200" Height="200"/>
         </StackPanel>
 
-        <StackPanel Grid.Row="2" Margin="38,272,456,-46" Grid.RowSpan="3" >
+        <StackPanel Grid.Row="3" Margin="38,272,456,-46" Grid.RowSpan="3" >
             <Image Source="/Pages/ibirapuera-park-lake.jpg"  Height="206" RenderTransformOrigin="0.488,0.501" Width="200"/>
         </StackPanel>
 
-        <StackPanel Grid.Row="2" Margin="41,479,463,-244" Grid.RowSpan="3">
+        <StackPanel Grid.Row="3" Margin="41,479,463,-244" Grid.RowSpan="3">
             <Image Source="/Pages/marathon-image.jpg" Width="200" Height="200"/>
         </StackPanel>
 
-        <Button VerticalAlignment="Top" HorizontalAlignment="Left" Style="{StaticResource Login}" Content="Назад" Click="Button_Click" Margin="14,6,0,0" Grid.RowSpan="2">
+        <Button VerticalAlignment="Top" HorizontalAlignment="Left" Style="{StaticResource Login}" Content="Назад" Click="Button_Click" Margin="14,6,0,0" Grid.RowSpan="3">
         </Button>
     </Grid>
 </Page>

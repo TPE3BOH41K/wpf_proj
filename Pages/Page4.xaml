@@ -8,7 +8,7 @@
       d:DesignHeight="800" d:DesignWidth="1200"
       Title="Page4">
 
-    <Grid Margin="6,88,-2,70">
+    <Grid Margin="97,134,170,70">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="30"/>
             <ColumnDefinition Width="125"/>
@@ -49,7 +49,7 @@
         <TextBox Name="txb_repeatpass" Grid.Column="2" Height="22" Grid.Row="5" TextWrapping="Wrap" GotFocus="txb_repeatpass_GotFocus" VerticalAlignment="Center" Margin="5,0,35,0" Foreground="Black" FontStyle="Italic" FontFamily="Open Sans Light" FontSize="14" Grid.ColumnSpan="2"/>
         <TextBox Name="txb_name" Grid.Column="2" Height="22" Grid.Row="6" TextWrapping="Wrap" GotFocus="txb_name_GotFocus" VerticalAlignment="Center" Margin="5,0,35,0" Foreground="Black" FontStyle="Italic" FontFamily="Open Sans Light" FontSize="14" TextChanged="txb_name_TextChanged" Grid.ColumnSpan="2"/>
         <TextBox Name="txb_surname" Grid.Column="2" Height="22" Grid.Row="7" TextWrapping="Wrap" GotFocus="txb_surname_GotFocus" VerticalAlignment="Center" Margin="5,0,35,0" Foreground="Black" FontStyle="Italic" FontFamily="Open Sans Light" FontSize="14" Grid.ColumnSpan="2"/>
-       
+
         <ComboBox Name="cmb_gender" Grid.Column="2" Margin="5,0,70,0" Grid.Row="8" VerticalAlignment="Center" FontFamily="Open Sans Light" FontSize="14" Height="23" Foreground="Black" Grid.ColumnSpan="2">
             <ComboBoxItem>Мужской</ComboBoxItem>
             <ComboBoxItem>Женский</ComboBoxItem>
@@ -60,25 +60,26 @@
         <TextBlock Grid.Column="8" Margin="29,5,32,4" Grid.Row="3" TextWrapping="Wrap" Text="Фото" FontFamily="Open Sans Light" FontSize="14"/>
         <TextBox x:Name="txb_pathphoto" Grid.Column="6" Height="22" Grid.Row="6" TextWrapping="Wrap" GotFocus="txb_pathphoto_GotFocus" VerticalAlignment="Center" Margin="18,0,0,0" Foreground="Black" FontStyle="Italic" FontFamily="Open Sans Light" FontSize="14" HorizontalAlignment="Left" Width="234"/>
         <Image Name="imgAvatar" Grid.Column="8" HorizontalAlignment="Center" Height="100" Margin="0,41,0,0" Grid.Row="2" Grid.RowSpan="4" VerticalAlignment="Top" Width="90"/>
-        
+
         <Button Name="btn_source" Content="Обзор" Background="#FFF2F2F2" FontFamily="Open Sans Light" FontSize="14" Foreground="#FF474747" HorizontalAlignment="Center" Width="96" Height="24" VerticalAlignment="Center" Grid.Column="8" Grid.Row="6" Click="btn_source_Click">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
-                    <Setter Property="CornerRadius" Value="7"/>
+                    <Setter Property="CornerRadius" Value="5"/>
                 </Style>
             </Button.Resources>
         </Button>
-        
+
         <Grid Grid.Column="6" Margin="5,0,0,0" Grid.Row="7" Grid.ColumnSpan="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition Width="115"/>
-                <ColumnDefinition Width="197"/>
+                <ColumnDefinition Width="123.333"/>
+                <ColumnDefinition Width="73.667"/>
             </Grid.ColumnDefinitions>
-            <DatePicker Name="dateBirth"  Margin="0,0,9,0" VerticalAlignment="Top" Grid.Column="2" FontFamily="Open Sans Light" FontSize="14" HorizontalAlignment="Right" Width="182" Foreground="Black"/>
-            <TextBlock HorizontalAlignment="Right" Margin="0,2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="104" FontFamily="Open Sans Light" FontSize="14" Grid.Column="1"><Run Text="Дата рождения"/><Run Text=":"/></TextBlock>
+            <DatePicker Name="dateBirth"  Margin="6,0,0,0" VerticalAlignment="Center" Grid.Column="2" FontFamily="Open Sans Light" FontSize="14" HorizontalAlignment="Left" Width="182" Foreground="Black" Grid.ColumnSpan="2"/>
+            <TextBlock HorizontalAlignment="Left" Margin="11,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="19" Width="104" FontFamily="Open Sans Light" FontSize="14" Grid.Column="1"><Run Text="Дата рождения"/><Run Text=":"/></TextBlock>
         </Grid>
-        
+
         <Grid Grid.Column="6" Margin="5,0,0,0" Grid.Row="8" Grid.ColumnSpan="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
@@ -94,22 +95,22 @@
 
             <TextBlock HorizontalAlignment="Right" Margin="0,2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="54" FontFamily="Open Sans Light" FontSize="14" Grid.Column="1"><Run Text="Страна"/><Run Text=":"/></TextBlock>
         </Grid>
-       
-        <Grid Grid.Column="1" HorizontalAlignment="Left" Height="65" Margin="84,3,0,0" Grid.Row="2" VerticalAlignment="Top" Width="853" Grid.ColumnSpan="6">
+
+        <Grid Grid.Column="1" HorizontalAlignment="Left" Height="74" Margin="87,8,0,0" Grid.Row="2" VerticalAlignment="Top" Width="716" Grid.ColumnSpan="8" Grid.RowSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="126*"/>
                 <ColumnDefinition Width="71*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock HorizontalAlignment="Left" Margin="405,-29,0,0" TextWrapping="Wrap" Text="Регистрация бегуна" VerticalAlignment="Top" FontSize="22" Foreground="Black" Height="29" Width="385" Grid.ColumnSpan="2"/>
-            <TextBlock HorizontalAlignment="Left" Margin="266,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" Width="546" TextAlignment="Center" Foreground="Black" Grid.ColumnSpan="2"><Run Text="Пожалуйста заполните всю информацию, чтобы зарегистрировать"/><Run Text="с"/><Run Text="я в качестве бегуна"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="240,-4,0,0" TextWrapping="Wrap" Text="Регистрация бегуна" VerticalAlignment="Top" FontSize="22" Foreground="Black" Height="30" Width="385" Grid.ColumnSpan="2"/>
+            <TextBlock HorizontalAlignment="Left" Margin="84,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" Width="546" TextAlignment="Center" Foreground="Black" Grid.ColumnSpan="2"><Run Text="Пожалуйста заполните всю информацию, чтобы зарегистрировать"/><Run Text="с"/><Run Text="я в качестве бегуна"/></TextBlock>
         </Grid>
-        
+
         <Button x:Name="btn_Reg" Content="Регистрация" Background="#FFF2F2F2" FontFamily="24" FontSize="14" Foreground="Black" HorizontalAlignment="Right" Width="96" Height="24" VerticalAlignment="Bottom" Grid.Column="3" Grid.Row="9" Margin="0,0,0,10" Click="btn_Reg_Click">
             <Button.Resources>
 
             </Button.Resources>
         </Button>
-        
+
         <Button x:Name="btn_cancel" Content="Отмена" Background="#FFF2F2F2" FontFamily="24" FontSize="14" Foreground="Black" HorizontalAlignment="Right" Width="96" Height="24" VerticalAlignment="Bottom" Grid.Column="6" Grid.Row="9" Margin="0,0,156,10" Click="btn_cancel_Click">
             <Button.Resources>
 

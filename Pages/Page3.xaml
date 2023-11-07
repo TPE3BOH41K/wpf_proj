@@ -12,7 +12,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="60"></RowDefinition>
             <RowDefinition/>
-            <RowDefinition Height="44"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
         </Grid.RowDefinitions>
        
         <Grid Grid.Row="0" Background="{StaticResource ColorSecondary}"></Grid>

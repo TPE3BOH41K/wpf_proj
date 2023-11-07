@@ -21,7 +21,7 @@ namespace Morozov_wpf
     /// </summary>
     public partial class MainWindow : Window
     {
-        TimeSpan a = new TimeSpan();
+        TimeSpan clock = new TimeSpan();
         DateTime date = new DateTime(2023, 12, 21);
         public MainWindow()
         {
@@ -33,8 +33,8 @@ namespace Morozov_wpf
         }
         private void timer_Tick(object sender, EventArgs e)
         {
-            a = date - DateTime.Now;
-            txb_Time.Text = "Марафон стартует через " + a.Days + "д. " + a.Hours + "ч. " + a.Minutes + "мин. " + a.Seconds + "с. ";
+            clock = date - DateTime.Now;
+            txb_Time.Text = "Марафон стартует через " + clock.Days + "д. " + clock.Hours + "ч. " + clock.Minutes + "мин. " + clock.Seconds + "с. ";
         }
     }
 }

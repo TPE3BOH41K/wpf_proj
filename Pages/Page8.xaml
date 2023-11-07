@@ -12,26 +12,26 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="60"></RowDefinition>
             <RowDefinition/>
-            <RowDefinition Height="44"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
         </Grid.RowDefinitions>
-        
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="1" Margin="208,0,0,0">
+
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Row="1" Margin="210,226,0,0">
             <Button Style="{StaticResource Button}" Click="Button_Click_1" Content="MARATHON SKILLS 2023"/>
             <Button Style="{StaticResource Button}" Click="Button_Click_2" Content="BMR калькулятор"/>
             <Button Style="{StaticResource Button}" Click="Button_Click_3" Content="BMI калькулятор"/>
         </StackPanel>
-        
-        <StackPanel HorizontalAlignment="Left" Grid.Row="1" Margin="603,228,0,-78" Grid.RowSpan="2">
+
+        <StackPanel HorizontalAlignment="Left" Grid.Row="1" Margin="603,226,0,317">
             <Button Style="{StaticResource Button}" Click="Button_Click_4" Content="Насколько долгий марофон"/>
             <Button Style="{StaticResource Button}" Click="Button_Click_5">
                 <TextBlock TextAlignment="Center"><Run Text="Список благотворительных"/><LineBreak /><Run Text="организаций"/></TextBlock>
             </Button>
         </StackPanel>
-        
+
         <Grid Grid.Row="0" Background="{StaticResource ColorSecondary}"></Grid>
         <Grid Grid.Row="2" Background="{StaticResource ColorSecondary}"></Grid>
         <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="182,0,0,0" Style="{StaticResource MainFont}">MARATHON SKILLS 2023</TextBlock>
-        <TextBlock Grid.Row="1" Style="{StaticResource 2ndFont}" FontSize="37" Foreground="Black"  Margin="386,34,0,32" HorizontalAlignment="Left" Grid.RowSpan="2">Подробная информация</TextBlock>
+        <TextBlock Grid.Row="1" Style="{StaticResource 2ndFont}" FontSize="37" Foreground="Black"  Margin="398,34,0,576" HorizontalAlignment="Left" Height="100">Подробная информация</TextBlock>
         <Button VerticalAlignment="Center" HorizontalAlignment="Left" Style="{StaticResource Login}" Content="Назад" Click="Button_Click"></Button>
     </Grid>
 </Page>
